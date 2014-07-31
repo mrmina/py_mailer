@@ -38,14 +38,3 @@ def sendEmail(Sender, Recipient, subject, message, Server=None):
 	s.quit()
 	
 	
-
-
-"""
-  USAGE
-"""
-
-Sender='youremail@example.com' 
-Recipient='recipient@example.com' 
-subject='hi subj' 
-message='Hi body'
-sendEmail(Sender, Recipient, subject, message)
