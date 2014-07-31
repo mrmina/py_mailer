@@ -1,7 +1,7 @@
 py_mailer
 =========
 
-send emails from python without an SMTP server.
+Sends emails from python without an SMTP server.
 
 
 <strong>Usage:</strong>
