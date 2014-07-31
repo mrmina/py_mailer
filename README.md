@@ -5,7 +5,7 @@ send emails from python without any SMTP server.
 
 Usage:
 
-<code>
+
 <pre>
 
 import py_mailer 
@@ -17,4 +17,3 @@ message='Hi body'
 
 py_mailer.sendEmail(Sender, Recipient, subject, message)
 </pre>
-</code>
