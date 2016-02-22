@@ -31,7 +31,7 @@ def sendEmail(Sender, Recipient, subject, message, Server=None):
 		return False
 	
 	print "Server:", Server
-	raw_input(">>")
+	
 
 	s = smtplib.SMTP(Server)
 	s.sendmail(Sender, [Recipient], msg.as_string())
